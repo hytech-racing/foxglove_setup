@@ -178,6 +178,23 @@
       "topicPath": "vn_vel_data",
       "fontSize": 18
     },
+    "Plot!2uxu5w7": {
+      "paths": [
+        {
+          "value": "vn_vel_data.vn_body_vel_x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
     "RawMessages!6c1jii": {
       "diffEnabled": false,
       "diffMethod": "custom",
@@ -268,6 +285,14 @@
       "topicPath": "mcu_status_data",
       "fontSize": 24
     },
+    "RawMessages!2oubeb4": {
+      "diffEnabled": false,
+      "diffMethod": "previous message",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "dashboard_state_data",
+      "fontSize": 24
+    },
     "RawMessages!4eqjf8z": {
       "diffEnabled": false,
       "diffMethod": "custom",
@@ -290,6 +315,11 @@
           "value": "mcu_pedal_readings_data.accel_percent_float",
           "enabled": true,
           "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "drivetrain_status_telem_data.brake_percent",
+          "enabled": true
         }
       ],
       "showXAxisLabels": true,
@@ -378,11 +408,6 @@
     "Plot!2m3ts73": {
       "paths": [
         {
-          "value": "mc1_setpoints_command_data.positive_torque_limit",
-          "enabled": false,
-          "timestampMethod": "receiveTime"
-        },
-        {
           "value": "drivetrain_rpms_telem_data.rr_motor_rpm",
           "enabled": true,
           "timestampMethod": "receiveTime"
@@ -399,7 +424,7 @@
         },
         {
           "timestampMethod": "receiveTime",
-          "value": "drivetrain_torque_telem_data.fl_motor_torque",
+          "value": "drivetrain_rpms_telem_data.rl_motor_rpm",
           "enabled": true
         }
       ],
@@ -410,8 +435,39 @@
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240,
-      "followingViewWidth": 45
+      "sidebarDimension": 240
+    },
+    "Plot!e18wwa": {
+      "paths": [
+        {
+          "value": "mc1_setpoints_command_data.positive_torque_limit",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc2_setpoints_command_data.positive_torque_limit",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc3_setpoints_command_data.positive_torque_limit",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc4_setpoints_command_data.positive_torque_limit",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
     },
     "RawMessages!trrbii": {
       "diffEnabled": false,
@@ -450,8 +506,7 @@
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240,
-      "followingViewWidth": 10
+      "sidebarDimension": 240
     },
     "Plot!47sv46b": {
       "paths": [
@@ -462,7 +517,12 @@
         },
         {
           "timestampMethod": "receiveTime",
-          "value": "drivetrain_status_telem_data.accel_percent",
+          "value": "vn_vel_data.vn_body_vel_x",
+          "enabled": false
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "vn_linear_accel_data.vn_lin_ins_accel_x",
           "enabled": true
         }
       ],
@@ -473,20 +533,19 @@
       "showPlotValuesInLegend": false,
       "isSynced": true,
       "xAxisVal": "timestamp",
-      "sidebarDimension": 240,
-      "followingViewWidth": 10
+      "sidebarDimension": 240
     },
     "Plot!2eg6sz3": {
       "paths": [
         {
           "timestampMethod": "receiveTime",
           "value": "mc1_setpoints_command_data.positive_torque_limit",
-          "enabled": true
+          "enabled": false
         },
         {
           "timestampMethod": "receiveTime",
           "value": "drivetrain_status_telem_data.accel_percent",
-          "enabled": false
+          "enabled": true
         }
       ],
       "showXAxisLabels": true,
@@ -498,13 +557,6 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "followingViewWidth": 10
-    },
-    "RawMessages!2o9qi6l": {
-      "diffEnabled": false,
-      "diffMethod": "custom",
-      "diffTopicPath": "",
-      "showFullMessageForDiff": false,
-      "topicPath": "drivetrain_err_status_telem_data"
     },
     "RawMessages!1d6ze4k": {
       "diffEnabled": false,
@@ -512,6 +564,13 @@
       "diffTopicPath": "",
       "showFullMessageForDiff": false,
       "topicPath": "drivetrain_status_telem_data"
+    },
+    "RawMessages!2o9qi6l": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "drivetrain_err_status_telem_data"
     },
     "Plot!3p9f3hp": {
       "paths": [
@@ -685,8 +744,234 @@
       "sidebarDimension": 240,
       "followingViewWidth": 30
     },
+    "Plot!671dwp": {
+      "paths": [
+        {
+          "value": "mc1_setpoints_command_data.positive_torque_limit",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc2_setpoints_command_data.positive_torque_limit",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc3_setpoints_command_data.positive_torque_limit",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc4_setpoints_command_data.positive_torque_limit",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 45
+    },
+    "Plot!1xkhflx": {
+      "paths": [
+        {
+          "value": "controller_normal_dist_data.controller_normal_percent_fr",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "controller_normal_dist_data.controller_normal_percent_fl",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "controller_normal_dist_data.controller_normal_percent_rl",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "controller_normal_dist_data.controller_normal_percent_rr",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 30
+    },
+    "Plot!tlccdk": {
+      "paths": [
+        {
+          "value": "controller_pid_yaw_torque_data.controller_yaw_torque_fl",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "controller_pid_yaw_torque_data.controller_yaw_torque_fr",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 45
+    },
+    "Plot!zlrola": {
+      "paths": [
+        {
+          "value": "controller_normal_torque_data.controller_normal_torque_fl",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "controller_normal_torque_data.controller_normal_torque_fr",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "controller_normal_torque_data.controller_normal_torque_rl",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "controller_normal_torque_data.controller_normal_torque_rr",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 30
+    },
+    "RawMessages!1b1yhwf": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "controller_pid_yaw_data",
+      "fontSize": 18
+    },
+    "RawMessages!hxe6b2": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "controller_initial_torque_req_data",
+      "fontSize": 18
+    },
+    "RawMessages!2kfdqpk": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "controller_pid_yaw_torque_data",
+      "fontSize": 18
+    },
+    "RawMessages!2a8b9q1": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "controller_normal_dist_data",
+      "fontSize": 18
+    },
+    "RawMessages!4b616i4": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "controller_normal_torque_data",
+      "fontSize": 18
+    },
+    "RawMessages!krgiub": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "vehm_kin_desired_yaw_rate_rad_s_data",
+      "fontSize": 18
+    },
+    "RawMessages!3ajnkny": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "vehm_wheel_steer_avg_deg_data",
+      "fontSize": 18
+    },
+    "RawMessages!lkbe75": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "vehm_sl_data",
+      "fontSize": 18
+    },
+    "RawMessages!iwfspg": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "vehm_alpha_data",
+      "fontSize": 18
+    },
+    "RawMessages!4j1mbpj": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc1_setpoints_command_data",
+      "fontSize": 18
+    },
+    "RawMessages!480gt3j": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc2_setpoints_command_data",
+      "fontSize": 18
+    },
+    "RawMessages!40rqpc2": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc3_setpoints_command_data",
+      "fontSize": 18
+    },
+    "RawMessages!2yocken": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc4_setpoints_command_data",
+      "fontSize": 18
+    },
     "Tab!10nm586": {
-      "activeTabIdx": 1,
+      "activeTabIdx": 9,
       "tabs": [
         {
           "title": "car_error_states",
@@ -746,7 +1031,11 @@
                 "direction": "column"
               },
               "second": {
-                "first": "RawMessages!zpqoo9",
+                "first": {
+                  "direction": "row",
+                  "second": "Plot!2uxu5w7",
+                  "first": "RawMessages!zpqoo9"
+                },
                 "second": "RawMessages!6c1jii",
                 "direction": "column"
               },
@@ -790,7 +1079,11 @@
           "title": "mcu_raw",
           "layout": {
             "first": "RawMessages!397zq70",
-            "second": "RawMessages!230srcg",
+            "second": {
+              "first": "RawMessages!230srcg",
+              "second": "RawMessages!2oubeb4",
+              "direction": "row"
+            },
             "direction": "row"
           }
         },
@@ -840,36 +1133,40 @@
             "first": {
               "first": {
                 "direction": "row",
-                "second": "Plot!2m3ts73",
+                "second": {
+                  "first": "Plot!2m3ts73",
+                  "second": "Plot!e18wwa",
+                  "direction": "column"
+                },
                 "first": "RawMessages!2mj0gps",
-                "splitPercentage": 34.48581560283688
+                "splitPercentage": 19.622470160871824
               },
               "second": {
                 "direction": "row",
                 "second": "Plot!u4fjl7",
                 "first": "RawMessages!trrbii",
-                "splitPercentage": 34.308510638297875
+                "splitPercentage": 19.93608442004118
               },
               "direction": "column",
               "splitPercentage": 60.51502145922747
             },
             "second": {
               "first": {
-                "first": {
-                  "first": "Plot!47sv46b",
-                  "second": "Plot!2eg6sz3",
-                  "direction": "column"
-                },
-                "second": "RawMessages!2o9qi6l",
+                "first": "Plot!47sv46b",
+                "second": "Plot!2eg6sz3",
                 "direction": "row",
-                "splitPercentage": 62.45293168370091
+                "splitPercentage": 38.26714801444043
               },
-              "second": "RawMessages!1d6ze4k",
+              "second": {
+                "first": "RawMessages!1d6ze4k",
+                "second": "RawMessages!2o9qi6l",
+                "direction": "row"
+              },
               "direction": "column",
               "splitPercentage": 60.44349070100144
             },
             "direction": "row",
-            "splitPercentage": 63.367401828940295
+            "splitPercentage": 62.189716312056746
           }
         },
         {
@@ -886,6 +1183,82 @@
               "direction": "column"
             },
             "direction": "row"
+          }
+        },
+        {
+          "title": "CASE system",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": {
+                    "first": "Plot!671dwp",
+                    "second": "Plot!1xkhflx",
+                    "direction": "row",
+                    "splitPercentage": 35.30106257378984
+                  },
+                  "second": {
+                    "first": "Plot!tlccdk",
+                    "second": "Plot!zlrola",
+                    "direction": "row",
+                    "splitPercentage": 34.82880755608028
+                  },
+                  "direction": "column"
+                },
+                "second": {
+                  "first": {
+                    "first": "RawMessages!1b1yhwf",
+                    "second": {
+                      "first": "RawMessages!hxe6b2",
+                      "second": "RawMessages!2kfdqpk",
+                      "direction": "column",
+                      "splitPercentage": 38.27433628318584
+                    },
+                    "direction": "column"
+                  },
+                  "second": {
+                    "first": "RawMessages!2a8b9q1",
+                    "second": "RawMessages!4b616i4",
+                    "direction": "column"
+                  },
+                  "direction": "row",
+                  "splitPercentage": 52.32538416286248
+                },
+                "direction": "row",
+                "splitPercentage": 82.85221479653414
+              },
+              "second": {
+                "first": "RawMessages!krgiub",
+                "second": "RawMessages!3ajnkny",
+                "direction": "column"
+              },
+              "direction": "row",
+              "splitPercentage": 71.12947658402203
+            },
+            "second": {
+              "first": {
+                "first": "RawMessages!lkbe75",
+                "second": "RawMessages!iwfspg",
+                "direction": "row"
+              },
+              "second": {
+                "first": {
+                  "first": "RawMessages!4j1mbpj",
+                  "second": "RawMessages!480gt3j",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": "RawMessages!40rqpc2",
+                  "second": "RawMessages!2yocken",
+                  "direction": "row"
+                },
+                "direction": "row"
+              },
+              "direction": "row",
+              "splitPercentage": 40.91312056737589
+            },
+            "direction": "column",
+            "splitPercentage": 72.03147353361946
           }
         }
       ]
