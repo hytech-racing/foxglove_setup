@@ -1,0 +1,1158 @@
+{
+  "configById": {
+    "RawMessages!14bpuia": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData",
+      "fontSize": 12
+    },
+    "RawMessages!uhqmwj": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VNData",
+      "fontSize": 12
+    },
+    "Plot!18tistz": {
+      "paths": [
+        {
+          "value": "VehicleData.current_body_accel_mss.y",
+          "enabled": false,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "VehicleData.electrical_power_watts",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 60
+    },
+    "RawMessages!2ci8h78": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VNData.vn_gps.lat",
+      "fontSize": 12
+    },
+    "Plot!39imr8m": {
+      "paths": [
+        {
+          "value": "bms_onboard_temps.high_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!1omtsjf": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "bms_voltages",
+      "fontSize": 12
+    },
+    "Plot!13qytr": {
+      "paths": [
+        {
+          "value": "bms_voltages.low_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 40
+    },
+    "RawMessages!pv7a7y": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData.current_body_vel_ms",
+      "fontSize": 12
+    },
+    "RawMessages!2o0pqns": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData.current_angular_rate_rads",
+      "fontSize": 12
+    },
+    "RawMessages!ivwh08": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "MCUOutputData",
+      "fontSize": 12
+    },
+    "RawMessages!4e4qce3": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "rr_ttpms_1",
+      "fontSize": 12
+    },
+    "Plot!qi6s3n": {
+      "paths": [
+        {
+          "value": "rr_ttpms_1.RR_TTPMS_SN",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "rr_ttpms_1.RR_TTPMS_BAT_V",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!14domz9": {
+      "paths": [
+        {
+          "value": "VehicleData.current_angular_rate_rads.z",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2rpmz29": {
+      "paths": [
+        {
+          "value": "VehicleData.current_body_vel_ms.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.current_body_vel_ms.y",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "vehm_wheel_lin_vel.vehm_wheel_lin_vel_fl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "vehm_wheel_lin_vel.vehm_wheel_lin_vel_fr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "",
+          "enabled": true,
+          "color": "#61cbff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "",
+          "enabled": true,
+          "color": "#a395e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.steering_angle_deg",
+          "enabled": true,
+          "color": "#cad660"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!2cw9f6o": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "drivetrain_err_status_telem",
+      "fontSize": 12
+    },
+    "RawMessages!3jl1ht4": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mcu_pedal_readings",
+      "fontSize": 12
+    },
+    "RawMessages!2h5bche": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "bms_voltages",
+      "fontSize": 12
+    },
+    "RawMessages!in6gke": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "drivetrain_torque_telem",
+      "fontSize": 12
+    },
+    "Plot!274zaoy": {
+      "paths": [
+        {
+          "value": "VehicleData.current_rpms.RR",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "VehicleData.current_rpms.RL",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "VehicleData.current_rpms.FR",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "VehicleData.current_rpms.FL",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!19azozg": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData.driver_torque",
+      "fontSize": 12
+    },
+    "RawMessages!1e9cid2": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "MCUCommandData.torque_limit_nm",
+      "fontSize": 12
+    },
+    "RawMessages!1vlxan": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "MCUCommandData.desired_rpms",
+      "fontSize": 12
+    },
+    "Plot!4dyf2up": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.electrical_power_watts",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!4863owr": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "bms_temps.high_temp",
+          "enabled": true,
+          "color": "#a395e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!mll50u": {
+      "paths": [
+        {
+          "value": "drivetrain_err_status_telem.mc1_diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "drivetrain_err_status_telem.mc2_diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "drivetrain_err_status_telem.mc3_diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "drivetrain_err_status_telem.mc4_diagnostic_number",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!it0tt6": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "em_measurement.em_current",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!20fx9qx": {
+      "paths": [
+        {
+          "value": "mc1_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc1_temps.igbt_temp",
+          "enabled": false,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc1_temps.inverter_temp",
+          "enabled": false,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc2_temps.motor_temp",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc3_temps.motor_temp",
+          "enabled": true,
+          "color": "#61cbff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "mc4_temps.motor_temp",
+          "enabled": true,
+          "color": "#a395e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!42xpc9l": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc1_temps",
+      "fontSize": 12
+    },
+    "StateTransitions!3emsh3m": {
+      "paths": [
+        {
+          "value": "mc1_temps.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc2_temps.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc3_temps.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "mc4_temps.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true,
+      "xAxisRange": 40
+    },
+    "RawMessages!1k56qmy": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc2_temps",
+      "fontSize": 12
+    },
+    "RawMessages!z97s8c": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "sab_thermistors_1",
+      "fontSize": 12
+    },
+    "Plot!3432urf": {
+      "paths": [
+        {
+          "value": "sab_thermistors_1.thermistor_acc2",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "sab_thermistors_1.thermistor_acc1",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "sab_thermistors_1.thermistor_inv2",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "sab_thermistors_2.thermistor_motor_rl",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "sab_thermistors_2.thermistor_motor_rr",
+          "enabled": true,
+          "color": "#61cbff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "sab_thermistors_2.thermistor_pump",
+          "enabled": true,
+          "color": "#a395e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!4e5xidg": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "MCUCommandData",
+      "fontSize": 12
+    },
+    "RawMessages!32jt491": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "sab_thermistors_2",
+      "fontSize": 12
+    },
+    "Plot!1jgomp0": {
+      "paths": [
+        {
+          "value": "sab_thermistors_2.thermistor_motor_rr",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "sab_thermistors_2.thermistor_motor_rl",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "sab_thermistors_2.thermistor_pump",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!4j7b3io": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "mc4_temps",
+      "fontSize": 12
+    },
+    "RawMessages!3gnfh5": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "bms_voltages",
+      "fontSize": 12
+    },
+    "RawMessages!ayefw": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "sab_thermistors_2",
+      "fontSize": 12
+    },
+    "RawMessages!2c0p2zt": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "front_thermistors",
+      "fontSize": 12
+    },
+    "RawMessages!4goumti": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "sab_thermistors_1",
+      "fontSize": 12
+    },
+    "Plot!2qeb38k": {
+      "paths": [
+        {
+          "value": "mc3_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 40
+    },
+    "Plot!164ocxn": {
+      "paths": [
+        {
+          "value": "VehicleData.current_body_vel_ms.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 40
+    },
+    "Plot!11fuaq4": {
+      "paths": [
+        {
+          "value": "mc4_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "followingViewWidth": 40
+    },
+    "Indicator!52w3z3": {
+      "path": "MCUOutputData.timing_failure_active",
+      "style": "background",
+      "fontSize": 36,
+      "fallbackColor": "#ff0000",
+      "fallbackLabel": "DB NOT IN CONTROL",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "false",
+          "color": "#68e24a",
+          "label": "DB IN CONTROL"
+        }
+      ]
+    },
+    "RawMessages!pygfkf": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData.tv_status",
+      "fontSize": 12
+    },
+    "RawMessages!mpbryn": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "bms_status",
+      "fontSize": 12
+    },
+    "RawMessages!2rar6xy": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "MCUCommandData",
+      "fontSize": 12
+    },
+    "RawMessages!33qnfzq": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VehicleData",
+      "fontSize": 12,
+      "expansion": {
+        "current_inputs": "e",
+        "current_body_vel_ms": "e",
+        "current_body_accel_mss": "e",
+        "current_angular_rate_rads": "e",
+        "current_ypr_rad": "e",
+        "current_rpms": "e",
+        "tire_dynamics": "c",
+        "tire_forces_n~tire_dynamics": "c",
+        "FL~tire_forces_n~tire_dynamics": "e",
+        "FR~tire_forces_n~tire_dynamics": "e",
+        "RL~tire_forces_n~tire_dynamics": "e",
+        "RR~tire_forces_n~tire_dynamics": "e",
+        "tire_moments_nm~tire_dynamics": "e",
+        "FL~tire_moments_nm~tire_dynamics": "e",
+        "FR~tire_moments_nm~tire_dynamics": "e",
+        "RL~tire_moments_nm~tire_dynamics": "e",
+        "RR~tire_moments_nm~tire_dynamics": "e",
+        "accel_saturation_nm~tire_dynamics": "e",
+        "brake_saturation_nm~tire_dynamics": "e",
+        "driver_torque": "e",
+        "tv_status": "e",
+        "torque_additional_nm~tv_status": "e"
+      }
+    },
+    "RawMessages!vfhxh7": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VNData.status",
+      "fontSize": 12
+    },
+    "Plot!ehtwp5": {
+      "paths": [
+        {
+          "value": "VehicleData.tv_status.additional_mz_moment_nm",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!aj256x": {
+      "paths": [
+        {
+          "value": "VehicleData.tv_status.psi_dot_err",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Parameters!jpkaql": {
+      "title": "Parameters"
+    },
+    "Plot!3qbomre": {
+      "paths": [
+        {
+          "value": "VehicleData.current_body_vel_ms.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!4bjotek": {
+      "paths": [
+        {
+          "value": "VNData.vn_linear_accel_m_ss.z",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3fafzgm": {
+      "paths": [
+        {
+          "value": "VNData.vn_linear_accel_m_ss.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!4bkd669": {
+      "paths": [
+        {
+          "value": "VNData.vn_linear_accel_m_ss.y",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3ctr3kb": {
+      "paths": [
+        {
+          "value": "VehicleData.tire_dynamics.tire_forces_n.RL.z",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!1q7n52h": {
+      "paths": [
+        {
+          "value": "sab_suspension.load_cell_rl",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "map!1tqhnya": {
+      "zoomLevel": 22
+    },
+    "NodePlayground!2ijba6l": {
+      "selectedNodeId": "133f8b46-e7ae-4e9a-8621-19d986c45042",
+      "autoFormatOnSave": true
+    },
+    "Tab!21k2kxk": {
+      "activeTabIdx": 5,
+      "tabs": [
+        {
+          "title": "data",
+          "layout": {
+            "first": {
+              "first": {
+                "direction": "column",
+                "second": "Plot!18tistz",
+                "first": {
+                  "first": "RawMessages!14bpuia",
+                  "second": "RawMessages!uhqmwj",
+                  "direction": "row",
+                  "splitPercentage": 60.125129990903744
+                }
+              },
+              "second": {
+                "first": {
+                  "direction": "column",
+                  "second": "Plot!39imr8m",
+                  "first": "RawMessages!2ci8h78"
+                },
+                "second": {
+                  "direction": "column",
+                  "second": "Plot!13qytr",
+                  "first": "RawMessages!1omtsjf"
+                },
+                "direction": "column"
+              },
+              "direction": "row",
+              "splitPercentage": 70.60420909708078
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "first": "RawMessages!pv7a7y",
+                  "second": "RawMessages!2o0pqns",
+                  "direction": "column"
+                },
+                "second": {
+                  "first": "RawMessages!ivwh08",
+                  "second": {
+                    "direction": "row",
+                    "second": "Plot!qi6s3n",
+                    "first": "RawMessages!4e4qce3"
+                  },
+                  "direction": "column",
+                  "splitPercentage": 53.76156765859504
+                },
+                "direction": "row",
+                "splitPercentage": 14.700508152637656
+              },
+              "second": {
+                "first": "Plot!14domz9",
+                "second": "Plot!2rpmz29",
+                "direction": "column"
+              },
+              "direction": "column",
+              "splitPercentage": 44.57236842105263
+            },
+            "direction": "row",
+            "splitPercentage": 56.15301767122741
+          }
+        },
+        {
+          "title": "CAN_data",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": "RawMessages!2cw9f6o",
+                  "second": "RawMessages!3jl1ht4",
+                  "direction": "column"
+                },
+                "second": {
+                  "first": {
+                    "first": {
+                      "first": "RawMessages!2h5bche",
+                      "second": {
+                        "direction": "row",
+                        "second": "Plot!274zaoy",
+                        "first": "RawMessages!in6gke"
+                      },
+                      "direction": "row"
+                    },
+                    "second": {
+                      "first": "RawMessages!19azozg",
+                      "second": {
+                        "first": "RawMessages!1e9cid2",
+                        "second": "RawMessages!1vlxan",
+                        "direction": "column"
+                      },
+                      "direction": "row"
+                    },
+                    "direction": "row"
+                  },
+                  "second": "Plot!4dyf2up",
+                  "direction": "column"
+                },
+                "direction": "column",
+                "splitPercentage": 26.4750378214826
+              },
+              "second": "Plot!4863owr",
+              "direction": "column"
+            },
+            "second": {
+              "first": {
+                "first": "StateTransitions!mll50u",
+                "second": "Plot!it0tt6",
+                "direction": "column"
+              },
+              "second": "Plot!20fx9qx",
+              "direction": "column"
+            },
+            "direction": "row",
+            "splitPercentage": 78.23581560283688
+          }
+        },
+        {
+          "title": "tempsandbatt",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": {
+                    "direction": "column",
+                    "second": "StateTransitions!3emsh3m",
+                    "first": "RawMessages!42xpc9l"
+                  },
+                  "second": {
+                    "first": "RawMessages!1k56qmy",
+                    "second": {
+                      "direction": "column",
+                      "second": "Plot!3432urf",
+                      "first": "RawMessages!z97s8c"
+                    },
+                    "direction": "column"
+                  },
+                  "direction": "row"
+                },
+                "second": {
+                  "first": {
+                    "first": "RawMessages!4e5xidg",
+                    "second": {
+                      "direction": "column",
+                      "second": "Plot!1jgomp0",
+                      "first": "RawMessages!32jt491"
+                    },
+                    "direction": "column"
+                  },
+                  "second": "RawMessages!4j7b3io",
+                  "direction": "row"
+                },
+                "direction": "row"
+              },
+              "second": {
+                "first": "RawMessages!3gnfh5",
+                "second": {
+                  "first": {
+                    "first": "RawMessages!ayefw",
+                    "second": "RawMessages!2c0p2zt",
+                    "direction": "column"
+                  },
+                  "second": "RawMessages!4goumti",
+                  "direction": "row"
+                },
+                "direction": "column"
+              },
+              "direction": "row",
+              "splitPercentage": 58.20035460992907
+            },
+            "second": {
+              "first": {
+                "first": "Plot!2qeb38k",
+                "second": "Plot!164ocxn",
+                "direction": "row"
+              },
+              "second": "Plot!11fuaq4",
+              "direction": "column"
+            },
+            "direction": "column"
+          }
+        },
+        {
+          "title": "tv&params",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": "Indicator!52w3z3",
+                  "second": "RawMessages!pygfkf",
+                  "direction": "column",
+                  "splitPercentage": 37.05293276108726
+                },
+                "second": {
+                  "first": "RawMessages!mpbryn",
+                  "second": "RawMessages!2rar6xy",
+                  "direction": "column"
+                },
+                "direction": "row",
+                "splitPercentage": 49.737302977232915
+              },
+              "second": {
+                "first": {
+                  "first": {
+                    "first": "RawMessages!33qnfzq",
+                    "second": "RawMessages!vfhxh7",
+                    "direction": "row"
+                  },
+                  "second": "Plot!ehtwp5",
+                  "direction": "column"
+                },
+                "second": "Plot!aj256x",
+                "direction": "column",
+                "splitPercentage": 64.41326530612244
+              },
+              "direction": "column",
+              "splitPercentage": 44.06294706723891
+            },
+            "second": "Parameters!jpkaql",
+            "direction": "row",
+            "splitPercentage": 49.642985360405284
+          }
+        },
+        {
+          "title": "recording",
+          "layout": {
+            "first": {
+              "first": {
+                "first": "Plot!3qbomre",
+                "second": {
+                  "first": "Plot!4bjotek",
+                  "second": {
+                    "first": "Plot!3fafzgm",
+                    "second": "Plot!4bkd669",
+                    "direction": "column"
+                  },
+                  "direction": "column"
+                },
+                "direction": "column",
+                "splitPercentage": 14.22087745839637
+              },
+              "second": "Plot!3ctr3kb",
+              "direction": "row"
+            },
+            "second": "Plot!1q7n52h",
+            "direction": "column"
+          }
+        },
+        {
+          "title": "map",
+          "layout": "map!1tqhnya"
+        },
+        {
+          "title": "scripts",
+          "layout": "NodePlayground!2ijba6l"
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {
+    "7ab00994-2d6b-40ca-be3f-62ac2b3b8510": {
+      "sourceCode": "// The ./types module provides helper types for your Input events and messages.\nimport { Input, Message } from \"./types\";\n\n// Your script can output well-known message types, any of your custom message types, or\n// complete custom message types.\n//\n// Use `Message` to access types from the schemas defined in your data source:\n// type Twist = Message<\"geometry_msgs/Twist\">;\n//\n// Import from the @foxglove/schemas package to use foxglove schema types:\n// import { Pose, LocationFix } from \"@foxglove/schemas\";\n//\n// Conventionally, it's common to make a _type alias_ for your script's output type\n// and use that type name as the return type for your script function.\n// Here we've called the type `Output` but you can pick any type name.\ntype Output = {\n  hello: string;\n};\n\n// These are the topics your script \"subscribes\" to. Studio will invoke your script function\n// when any message is received on one of these topics.\nexport const inputs = [\"/input/topic\"];\n\n// Any output your script produces is \"published\" to this topic. Published messages are only visible within Studio, not to your original data source.\nexport const output = \"/studio_script/output_topic\";\n\n// This function is called with messages from your input topics.\n// The first argument is an event with the topic, receive time, and message.\n// Use the `Input<...>` helper to get the correct event type for your input topic messages.\nexport default function script(event: Input<\"/input/topic\">): Output {\n  return {\n    hello: \"world!\",\n  };\n};",
+      "name": "7ab00994"
+    },
+    "c84b3405-1a5d-4a52-bbeb-2ec314cbe93e": {
+      "sourceCode": "// This example shows how to subscribe to multiple input topics.\n//\n// NOTE:\n// User Scripts can subscribe to multiple input topics, but can only publish on a single topic.\n\nimport { Input } from \"./types\";\n\ntype Output = { pw: number };\ntype GlobalVariables = {\n  volt: number;\n  current: number;\n  pw: number;\n};\n\n// List all the input topics in the `input` array\nexport const inputs = [\"MCUCommandData\", \"MCUOutputData\", \"em_measurement\"];\nexport const output = \"out\";\n\n// Make an InputEvent type alias. Since our script will get a message from either input topic, we need to enumerate the topics.\ntype InputEvent = Input<\"em_measurement\">;\n\nexport default function script(\n  event: InputEvent,\n  globalVars: GlobalVariables,\n): Output {\n  // Remember that your script will get messages on each topic, so you\n  // need to check each event's topic to know which fields are available on the message.\n  switch (event.topic) {\n    // case \"MCUCommandData\":\n    //   // topic specific input logic\n    //   // Our message fields are specific to our topic message\n    //   globalVars.timestampB = event.message.prev_MCU_recv_millis;\n    //   break;\n    // case \"MCUOutputData\":\n    //   // another specific logic\n    //   globalVars.timstampA = event.message.MCU_recv_millis;\n    //   break;\n    case \"em_measurement\":\n      if (event.message.em_current && event.message.em_voltage) {\n        globalVars.current = event.message.em_current;\n        globalVars.volt = event.message.em_voltage;\n      }\n    // Scripts can only output one type of message regardless of the inputs\n    // Here we echo back the input topic as an example.\n  }\n  return {\n    pw: globalVars.current * globalVars.volt,\n  };\n}\n",
+      "name": "c84b3405"
+    },
+    "133f8b46-e7ae-4e9a-8621-19d986c45042": {
+      "sourceCode": "// The ./types module provides helper types for your Input events and messages.\nimport { Input, Message } from \"./types\";\nimport { LocationFix } from \"@foxglove/schemas\";\n\n// Your script can output well-known message types, any of your custom message types, or\n// complete custom message types.\n//\n// Use `Message` to access types from the schemas defined in your data source:\n// type Twist = Message<\"geometry_msgs/Twist\">;\n//\n// Import from the @foxglove/schemas package to use foxglove schema types:\n// import { Pose, LocationFix } from \"@foxglove/schemas\";\n//\n// Conventionally, it's common to make a _type alias_ for your script's output type\n// and use that type name as the return type for your script function.\n// Here we've called the type `Output` but you can pick any type name.\n\n// These are the topics your script \"subscribes\" to. Studio will invoke your script function\n// when any message is received on one of these topics.\nexport const inputs = [\"VNData\"];\n\n// Any output your script produces is \"published\" to this topic. Published messages are only visible within Studio, not to your original data source.\nexport const output = \"/VN_location_fix\";\n\n// This function is called with messages from your input topics.\n// The first argument is an event with the topic, receive time, and message.\n// Use the `Input<...>` helper to get the correct event type for your input topic messages.\nexport default function script(event: Input<\"VNData\">): LocationFix {\n  let lat = event.message.vn_gps.lat;\n  let lon = event.message.vn_gps.lon;\n  return {\n    timestamp: event.receiveTime,\n    frame_id: \"gps\",\n    latitude: lat,\n    longitude: lon,\n    altitude: 1000,\n    position_covariance: [0, 0, 0, 0, 0, 0, 0, 0, 0],\n    position_covariance_type: 0,\n  };\n}\n",
+      "name": "133f8b46"
+    }
+  },
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Tab!21k2kxk"
+}
