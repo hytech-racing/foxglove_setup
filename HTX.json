@@ -1,0 +1,2908 @@
+{
+  "configById": {
+    "RawMessages!fy7rb1": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "VNData",
+      "fontSize": 12
+    },
+    "StateTransitions!3wc6c8n": {
+      "paths": [
+        {
+          "value": "VNData.status.ins_mode",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "RawMessages!3pkrh2k": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "estimator_Outports",
+      "fontSize": 12
+    },
+    "RawMessages!9ecgzk": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "estimator_Outports.intent",
+      "fontSize": 12
+    },
+    "Plot!34ylbt4": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!30uasyr": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.fz_est_N_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.fz_est_N_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.fz_est_N_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.fz_est_N_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!27pkexm": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!ti22uk": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.vx_est_m_s",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VNData.vn_vel_m_s.x",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!o0extr": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2yniwrm": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.vy_est_m_s",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3xt690x": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.alpha_deg_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.alpha_deg_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.alpha_deg_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.alpha_deg_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!1i2pmk": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.elec_theo_p_kW",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.old_energy_meter_kw",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!1ayodkt": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_temps.motor_temp",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_temps.motor_temp",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_temps.motor_temp",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_temps.motor_temp",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!33a86ns": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!10hwwoz": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.intent",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!4e9p1jq": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.kappas_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3y245qw": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_FL",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_FR",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_RL",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_RR",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "minYValue": -25,
+      "maxYValue": 25
+    },
+    "Plot!9fif6i": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "minYValue": -25,
+      "maxYValue": 25
+    },
+    "Plot!49jvy3x": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.vx_est_m_s",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "minYValue": -3,
+      "maxYValue": 20
+    },
+    "Plot!28ibmzl": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.wheel_steer_deg",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!156ng6h": {
+      "paths": [
+        {
+          "value": "inv1_status.derating_on",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv2_status.derating_on",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv3_status.derating_on",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv4_status.derating_on",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!opq4fn": {
+      "paths": [
+        {
+          "value": "VNData.status.gnss_fix",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!1jjxbw5": {
+      "paths": [
+        {
+          "value": "VCRData_s.status.drivebrain_is_in_control",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!3srtzg3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.des_Mz_Nm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.Mz_add_Nm",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!2ap7gxn": {
+      "paths": [
+        {
+          "value": "inv1_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv2_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv3_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv4_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!2i3as42": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.des_wz_rad_s",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VNData.vn_angular_rate_rad_s.z",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2cp0pnr": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!kzzxca": {
+      "paths": [],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!bg25og": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2qxqz6w": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_power_w",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!ukmy2i": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_rl",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2cyz7ax": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_power_w",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3ih1s2k": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_fr",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!e5wcic": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_power_w",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!4deqb9f": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_kW_tot",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.elec_theo_p_kW",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.old_energy_meter_kw",
+          "enabled": true,
+          "color": "#f7df71"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3yrydos": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_overload.motor_overload_percentage",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!355dps4": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.amk_elec_p_W_rr",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3s8q0x4": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_power.active_power_w",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!o0zdlw": {
+      "paths": [
+        {
+          "value": "inv1_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv2_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv3_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        },
+        {
+          "value": "inv4_status.diagnostic_number",
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!4laty8x": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_FL",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_FR",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_RL",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.torq_RR",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "maxYValue": 25,
+      "minYValue": -25
+    },
+    "Plot!1n16zdd": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "minYValue": 0
+    },
+    "Plot!3rv4qne": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "em_measurement.em_voltage",
+          "enabled": true,
+          "color": "#61cbff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "maxYValue": 550,
+      "minYValue": 0
+    },
+    "Plot!ncm0uh": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.intent",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!2o54fwd": {
+      "paths": [
+        {
+          "value": "VCRData_s.status.drivebrain_is_in_control",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!3ts7fg5": {
+      "paths": [
+        {
+          "value": "VehicleData.state_is_valid",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!48hapbu": {
+      "paths": [
+        {
+          "value": "qp_torq_allocator_Outports.inv_temp_derate_flag_fl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.motor_temp_derate_flag_fl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.overload_derate_flag_fl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.voltage_regen_power_limit_flag",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!385ixvk": {
+      "paths": [
+        {
+          "value": "inv1_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv2_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv3_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv4_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!25z9e0m": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_overload_feedback_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_overload_feedback_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_overload_feedback_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_overload_feedback_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2rmszf3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_torque_nm",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "maxYValue": 25,
+      "minYValue": -25
+    },
+    "Plot!47omhnr": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_temp_C_feedback_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_temp_C_feedback_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_temp_C_feedback_rl",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.motor_temp_C_feedback_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!12bqcw": {
+      "paths": [
+        {
+          "value": "qp_torq_allocator_Outports.inv_temp_derate_flag_fr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.motor_temp_derate_flag_fr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.overload_derate_flag_fr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.voltage_regen_power_limit_flag",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!js01cg": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.elec_powerlimit_feedback_kW",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.elec_theo_p_kW",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "VehicleData.old_energy_meter_kw",
+          "enabled": true,
+          "color": "#f7df71"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!z37wyu": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.inv_temp_C_feedback_fl",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.inv_temp_C_feedback_fr",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.inv_temp_C_feedback_rr",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.inv_temp_C_feedback_rr",
+          "enabled": true,
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!tsqsuw": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "estimator_Outports.des_Mz_Nm",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "qp_torq_allocator_Outports.Mz_add_Nm",
+          "enabled": true,
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!3fcn1ku": {
+      "paths": [
+        {
+          "value": "qp_torq_allocator_Outports.inv_temp_derate_flag_rl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.motor_temp_derate_flag_rl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.overload_derate_flag_rl",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.voltage_regen_power_limit_flag",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!acgn6j": {
+      "paths": [
+        {
+          "value": "inv1_status.derating_on",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv2_status.derating_on",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv3_status.derating_on",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv4_status.derating_on",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "Parameters!3cmfmih": {
+      "title": "Parameters"
+    },
+    "StateTransitions!1xk5dyr": {
+      "paths": [
+        {
+          "value": "qp_torq_allocator_Outports.inv_temp_derate_flag_rr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.motor_temp_derate_flag_rr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.overload_derate_flag_rr",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "qp_torq_allocator_Outports.voltage_regen_power_limit_flag",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "Parameters!3houfbw": {
+      "title": "Parameters"
+    },
+    "RawMessages!14iy6ll": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "estimator_Outports",
+      "fontSize": 12
+    },
+    "RawMessages!4b2fjpy": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "qp_torq_allocator_Outports",
+      "fontSize": 12
+    },
+    "RawMessages!3eun8g1": {
+      "topicPath": "McapInfo.current_mcap",
+      "defaultExpanded": false
+    },
+    "Plot!2dqx3a3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "14e959f5-37b2-4bc9-bd4c-d3301be65755"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "b3cf35c5-705c-43ac-a50c-0aa16acf63f2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "82c28d88-cbde-484a-b5c0-c14b7f390b47"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_dynamics.actual_speed_rpm",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "df02fdec-5d97-4ddd-ad02-fd4977445978"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!ggwk3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_power.active_power_w",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "c98330a3-fc49-460d-be3b-c604f85c7a66"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_power.active_power_w",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "778e8a56-86b3-4f1e-af29-b2805f26d3d9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_power.active_power_w",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "07363b7e-c7e1-46d6-bcc8-2f738e64f1fa"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_power.active_power_w",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "ad7f75dd-ea28-4e1e-ad50-2066dcef814a"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!364sq3a": {
+      "paths": [
+        {
+          "value": "inv1_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        },
+        {
+          "value": "inv2_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        },
+        {
+          "value": "inv3_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f7df71"
+        },
+        {
+          "value": "inv4_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!34i9u4v": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_temps.motor_temp",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "74027a2e-f86a-4068-8be0-218209d63460"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_temps.motor_temp",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "f26e720d-d89d-42ac-bec6-5ef78fdce7cb"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_temps.motor_temp",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "5857f9db-9cd3-42a6-a531-bdf2f586fb88"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_temps.motor_temp",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "569cb182-c735-49d5-8c1a-0aa69e2f420a"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!18b9p1n": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "pedals_system_data.accel_pedal",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "5644eaa8-adef-4050-b990-04e0072bfbd7"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "pedals_system_data.brake_pedal",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "c4b72797-2b82-4cfe-94dc-ffd838953e5b"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!ae7zb5": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv1_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "68435d5a-9a80-4425-b830-03c75d09cd73"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv2_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "21f9d9b5-71d1-4b6d-ad2a-53df012af300"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv3_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "7263a89f-d58b-4832-8df7-3e6f0a359a9e"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "inv4_status.dc_bus_voltage",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "8b161492-6358-46b5-a9a2-909ee2cfe073"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!13kx45o": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.min_measured_shdn_out_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "1024bc18-f253-438a-bc52-9658ddbc3905"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.hv_plus_out_voltage",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "8d0c017d-abeb-405a-82ac-4b94e2ea3daf"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.main_ok_voltage",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "c92306ad-68fe-44c8-a331-debf89198cf4"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.main_under_threshold_voltage",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "aa06bf70-dd8c-4e71-a0c0-eb08038504f2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.precharge_under_threshold_voltage",
+          "enabled": true,
+          "color": "#ac3ad5",
+          "id": "dd0333de-0fc0-4953-a152-cf9592b5c23a"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.precharge_ok_voltage",
+          "enabled": true,
+          "color": "#a395e2",
+          "id": "953f8ff4-cc5e-4580-86d1-3f7ebc32fd32"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!38y18rl": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.min_measured_pack_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "60c247a6-9ecb-4a29-8a02-4eb3357985b2"
+        },
+        {
+          "value": "ACUCoreData.min_measured_tractive_system_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        },
+        {
+          "value": "ACUCoreData.max_measured_pack_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f7df71"
+        },
+        {
+          "value": "ACUCoreData.max_measured_tractive_system_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#5cd6a9"
+        }
+      ],
+      "showLegend": false
+    },
+    "RawMessages!1594wkh": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "ACUAllData",
+      "fontSize": 12,
+      "expansion": {
+        "firmware_version_info": "e",
+        "msg_versions": "e",
+        "ht_proto_version~msg_versions": "e",
+        "vcr_shutdown_data": "e",
+        "current_sensor_data": "e",
+        "drivetrain_data": "c",
+        "tcmux_status": "c",
+        "cell_voltages": "c",
+        "cell_temperatures": "c",
+        "board_temperatures": "c"
+      },
+      "defaultExpanded": true
+    },
+    "Plot!1valam8": {
+      "paths": [
+        {
+          "value": "ACUAllData.valid_packet_rate",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!1q7w90z": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.max_cell_temp",
+          "enabled": true,
+          "showLine": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.max_board_temp",
+          "enabled": true,
+          "showLine": true
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!1hzdpc6": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "front_suspension.fl_load_cell",
+          "enabled": true,
+          "color": "#4e98e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "front_suspension.fr_load_cell",
+          "enabled": true,
+          "color": "#f5774d"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "rear_suspension.rl_load_cell",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "rear_suspension.rr_load_cell",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "front_suspension.fl_shock_pot",
+          "enabled": false,
+          "color": "#61cbff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "front_suspension.fr_shock_pot",
+          "enabled": false,
+          "color": "#a395e2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "rear_suspension.rl_shock_pot",
+          "enabled": false,
+          "color": "#cad660"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "rear_suspension.rr_shock_pot",
+          "enabled": false,
+          "color": "#4e98e2"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!3vnzfhw": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.min_cell_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "f68f5d6b-4d04-462e-9640-ce7da223ad72"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.max_cell_voltage",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "d45835d9-289b-41e9-baad-495a309ba1c0"
+        }
+      ],
+      "showLegend": false
+    },
+    "RawMessages!461qt9a": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "bms_voltages",
+      "fontSize": 12,
+      "expansion": {
+        "firmware_version_info": "c",
+        "msg_versions": "e",
+        "shutdown_sensing_data": "e"
+      },
+      "defaultExpanded": true
+    },
+    "StateTransitions!2ieexdu": {
+      "paths": [
+        {
+          "value": "ACUCoreData.acu_state",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv1_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "inv2_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "inv3_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "inv4_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.bms_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "acu_ok.imd_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "VCRData_s.vcr_shutdown_data.bspd_is_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "VCRData_s.current_sensor_data.bpsd_brake_high_sense",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        },
+        {
+          "value": "VCRData_s.current_sensor_data.bspd_current_high_sense",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          }
+        }
+      ],
+      "isSynced": true
+    },
+    "Plot!3o9zbc4": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "em_measurement.em_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "b7257eb5-0662-4b8f-a1e5-7b7e340b87e9"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!3178t9m": {
+      "paths": [
+        {
+          "value": "em_measurement.em_current",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        }
+      ],
+      "showLegend": false
+    },
+    "Plot!1rxdw6c": {
+      "paths": [
+        {
+          "value": "ACUAllData.cell_voltages[:]",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2",
+          "showLine": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "index",
+      "sidebarDimension": 240
+    },
+    "Plot!30rz1tg": {
+      "paths": [
+        {
+          "value": "ACUCoreData.max_measured_tractive_system_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        },
+        {
+          "value": "ACUCoreData.min_measured_tractive_system_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        },
+        {
+          "value": "ACUCoreData.max_measured_pack_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f7df71"
+        },
+        {
+          "value": "ACUCoreData.min_measured_pack_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!2tqw4ox": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "ACUAllData",
+      "fontSize": 12,
+      "expansion": {
+        "board_temperatures": "c",
+        "invalid_packet_chip_counts": "e",
+        "core_data": "e",
+        "firmware_version_info": "e",
+        "msg_versions": "e",
+        "cell_voltages": "c",
+        "cell_temperatures": "c"
+      },
+      "defaultExpanded": true
+    },
+    "Plot!170cr23": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUAllData.valid_packet_rate",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!38dqj0c": {
+      "paths": [
+        {
+          "value": "ACUCoreData.acu_state",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.bms_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.imd_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        }
+      ]
+    },
+    "Plot!3i91i0q": {
+      "paths": [
+        {
+          "value": "ACUAllData.core_data.max_cell_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        },
+        {
+          "value": "ACUAllData.core_data.max_board_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!1ojvzst": {
+      "paths": [
+        {
+          "value": "inv1_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        },
+        {
+          "value": "inv2_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        },
+        {
+          "value": "inv3_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f7df71"
+        },
+        {
+          "value": "inv4_temps.inverter_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!2k9v5iu": {
+      "paths": [
+        {
+          "value": "inv1_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        },
+        {
+          "value": "inv2_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f5774d"
+        },
+        {
+          "value": "inv3_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#f7df71"
+        },
+        {
+          "value": "inv4_temps.motor_temp",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#5cd6a9"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3jwqlz1": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "em_measurement.em_current",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3ioxg1r": {
+      "paths": [
+        {
+          "value": "em_measurement.em_voltage",
+          "enabled": true,
+          "timestampMethod": "receiveTime",
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "StateTransitions!1eziljd": {
+      "paths": [
+        {
+          "value": "VCFData_s.vcf_shutdown_data.d_inertia_switch",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "VCFData_s.vcf_shutdown_data.h_driver_brb",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.bms_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.imd_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "acu_ok.latch_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "ACUAllData.core_data.acu_state",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "pedals_system_data.accel_implausible",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "pedals_system_data.brake_implausible",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "pedals_system_data.brake_accel_implausibility",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "pedals_system_data.implaus_exceeded_max_duration",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "VCRData_s.vcr_shutdown_data.bspd_is_ok",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        }
+      ],
+      "isSynced": true
+    },
+    "StateTransitions!1vd8183": {
+      "paths": [
+        {
+          "value": "inv1_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "inv2_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "inv3_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        },
+        {
+          "value": "inv4_status.diagnostic_number",
+          "timestampMethod": "receiveTime",
+          "customStates": {
+            "type": "discrete",
+            "states": []
+          },
+          "enabled": true
+        }
+      ]
+    },
+    "Plot!3528qpq": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.min_measured_shdn_out_voltage",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "5866aa5d-c45a-4ad4-bc7b-851b5465af69"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.hv_plus_out_voltage",
+          "enabled": true,
+          "color": "#f7df71"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.main_under_threshold_voltage",
+          "enabled": true,
+          "color": "#5cd6a9"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.precharge_under_threshold_voltage",
+          "enabled": true,
+          "color": "#61cbff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "ACUCoreData.main_ok_voltage",
+          "enabled": true,
+          "color": "#a395e2"
+        }
+      ],
+      "showLegend": false
+    },
+    "Tab!2p9xiqs": {
+      "activeTabIdx": 5,
+      "tabs": [
+        {
+          "title": "Estimators",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "direction": "column",
+                  "second": "StateTransitions!3wc6c8n",
+                  "first": "RawMessages!fy7rb1",
+                  "splitPercentage": 73.49931837601022
+                },
+                "second": {
+                  "first": {
+                    "first": "RawMessages!3pkrh2k",
+                    "second": "RawMessages!9ecgzk",
+                    "direction": "column",
+                    "splitPercentage": 73.88534421245745
+                  },
+                  "second": "Plot!34ylbt4",
+                  "direction": "row",
+                  "splitPercentage": 30.98787572736837
+                },
+                "direction": "row",
+                "splitPercentage": 24.73892105501726
+              },
+              "second": {
+                "first": "Plot!30uasyr",
+                "second": "Plot!27pkexm",
+                "direction": "row",
+                "splitPercentage": 48.020541204802456
+              },
+              "direction": "column"
+            },
+            "second": {
+              "first": {
+                "first": "Plot!ti22uk",
+                "second": "Plot!o0extr",
+                "direction": "column"
+              },
+              "second": {
+                "first": "Plot!2yniwrm",
+                "second": "Plot!3xt690x",
+                "direction": "column"
+              },
+              "direction": "row"
+            },
+            "direction": "row",
+            "splitPercentage": 49.28522000371314
+          }
+        },
+        {
+          "title": "QP Allocator",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": "Plot!1i2pmk",
+                  "second": "Plot!1ayodkt",
+                  "direction": "column"
+                },
+                "second": {
+                  "first": {
+                    "first": "Plot!33a86ns",
+                    "second": "Plot!10hwwoz",
+                    "direction": "row"
+                  },
+                  "second": "Plot!4e9p1jq",
+                  "direction": "column"
+                },
+                "direction": "row",
+                "splitPercentage": 32.64414759352222
+              },
+              "second": {
+                "first": "Plot!3y245qw",
+                "second": "Plot!9fif6i",
+                "direction": "row",
+                "splitPercentage": 48.28554143616394
+              },
+              "direction": "column",
+              "splitPercentage": 67.51725478270954
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "first": "Plot!49jvy3x",
+                  "second": "Plot!28ibmzl",
+                  "direction": "column"
+                },
+                "second": {
+                  "first": "StateTransitions!156ng6h",
+                  "second": {
+                    "first": "StateTransitions!opq4fn",
+                    "second": "StateTransitions!1jjxbw5",
+                    "direction": "column"
+                  },
+                  "direction": "column",
+                  "splitPercentage": 55.73854846233244
+                },
+                "direction": "row"
+              },
+              "second": {
+                "first": {
+                  "first": "Plot!3srtzg3",
+                  "second": "StateTransitions!2ap7gxn",
+                  "direction": "column",
+                  "splitPercentage": 41.57857545631634
+                },
+                "second": {
+                  "first": "Plot!2i3as42",
+                  "second": {
+                    "first": "Plot!2cp0pnr",
+                    "second": "Plot!kzzxca",
+                    "direction": "row"
+                  },
+                  "direction": "column",
+                  "splitPercentage": 50.84787248298975
+                },
+                "direction": "row",
+                "splitPercentage": 49.55454298150161
+              },
+              "direction": "column",
+              "splitPercentage": 47.78335302531811
+            },
+            "direction": "row",
+            "splitPercentage": 53.62318840579711
+          }
+        },
+        {
+          "title": "AMK Power",
+          "layout": {
+            "first": {
+              "first": {
+                "first": "Plot!bg25og",
+                "second": "Plot!2qxqz6w",
+                "direction": "row"
+              },
+              "second": {
+                "first": "Plot!ukmy2i",
+                "second": "Plot!2cyz7ax",
+                "direction": "row"
+              },
+              "direction": "column"
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "first": "Plot!3ih1s2k",
+                  "second": "Plot!e5wcic",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": "Plot!4deqb9f",
+                  "second": "Plot!3yrydos",
+                  "direction": "row"
+                },
+                "direction": "row"
+              },
+              "second": {
+                "first": {
+                  "first": "Plot!355dps4",
+                  "second": "Plot!3s8q0x4",
+                  "direction": "row"
+                },
+                "second": "StateTransitions!o0zdlw",
+                "direction": "row",
+                "splitPercentage": 49.996595461242364
+              },
+              "direction": "column"
+            },
+            "direction": "row",
+            "splitPercentage": 32.86637749160323
+          }
+        },
+        {
+          "title": "QP Derate",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": "Plot!4laty8x",
+                  "second": "Plot!1n16zdd",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": {
+                    "first": "Plot!3rv4qne",
+                    "second": "Plot!ncm0uh",
+                    "direction": "row"
+                  },
+                  "second": {
+                    "first": "StateTransitions!2o54fwd",
+                    "second": "StateTransitions!3ts7fg5",
+                    "direction": "row"
+                  },
+                  "direction": "column"
+                },
+                "direction": "column"
+              },
+              "second": "StateTransitions!48hapbu",
+              "direction": "column",
+              "splitPercentage": 66.37714213533027
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "first": {
+                    "first": "StateTransitions!385ixvk",
+                    "second": "Plot!25z9e0m",
+                    "direction": "row"
+                  },
+                  "second": {
+                    "first": "Plot!2rmszf3",
+                    "second": "Plot!47omhnr",
+                    "direction": "row"
+                  },
+                  "direction": "column"
+                },
+                "second": "StateTransitions!12bqcw",
+                "direction": "column",
+                "splitPercentage": 66.37714213533027
+              },
+              "second": {
+                "first": {
+                  "first": {
+                    "first": "Plot!js01cg",
+                    "second": {
+                      "first": "Plot!z37wyu",
+                      "second": "Plot!tsqsuw",
+                      "direction": "row"
+                    },
+                    "direction": "column"
+                  },
+                  "second": "StateTransitions!3fcn1ku",
+                  "direction": "column",
+                  "splitPercentage": 66.4736485944421
+                },
+                "second": {
+                  "first": {
+                    "first": "StateTransitions!acgn6j",
+                    "second": "Parameters!3cmfmih",
+                    "direction": "column"
+                  },
+                  "second": "StateTransitions!1xk5dyr",
+                  "direction": "column",
+                  "splitPercentage": 66.4736485944421
+                },
+                "direction": "row",
+                "splitPercentage": 48.21077924762298
+              },
+              "direction": "row",
+              "splitPercentage": 33.62709166205886
+            },
+            "direction": "row",
+            "splitPercentage": 23.609756097560975
+          }
+        },
+        {
+          "title": "Params",
+          "layout": {
+            "first": "Parameters!3houfbw",
+            "second": {
+              "first": "RawMessages!14iy6ll",
+              "second": "RawMessages!4b2fjpy",
+              "direction": "row",
+              "splitPercentage": 50.4390243902439
+            },
+            "direction": "row"
+          }
+        },
+        {
+          "title": "HTX View",
+          "layout": {
+            "first": {
+              "first": {
+                "first": {
+                  "first": {
+                    "first": "RawMessages!3eun8g1",
+                    "second": "Plot!2dqx3a3",
+                    "direction": "column"
+                  },
+                  "second": "Plot!ggwk3",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": "Plot!364sq3a",
+                  "second": "Plot!34i9u4v",
+                  "direction": "row"
+                },
+                "direction": "column"
+              },
+              "second": {
+                "first": {
+                  "first": "Plot!18b9p1n",
+                  "second": "Plot!ae7zb5",
+                  "direction": "row"
+                },
+                "second": {
+                  "first": "Plot!13kx45o",
+                  "second": "Plot!38y18rl",
+                  "direction": "row",
+                  "splitPercentage": 49.613986055276996
+                },
+                "direction": "column"
+              },
+              "direction": "row"
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "direction": "column",
+                  "second": "Plot!1q7w90z",
+                  "first": {
+                    "first": "RawMessages!1594wkh",
+                    "second": "Plot!1valam8",
+                    "direction": "column",
+                    "splitPercentage": 64.81752821797639
+                  },
+                  "splitPercentage": 50.05359056806004
+                },
+                "second": {
+                  "direction": "column",
+                  "second": "Plot!3vnzfhw",
+                  "first": "Plot!1hzdpc6"
+                },
+                "direction": "row",
+                "splitPercentage": 50.20242914979757
+              },
+              "second": {
+                "first": {
+                  "first": "RawMessages!461qt9a",
+                  "second": "StateTransitions!2ieexdu",
+                  "direction": "column",
+                  "splitPercentage": 28.706849714966864
+                },
+                "second": {
+                  "first": "Plot!3o9zbc4",
+                  "second": "Plot!3178t9m",
+                  "direction": "column"
+                },
+                "direction": "row"
+              },
+              "direction": "row"
+            },
+            "direction": "column",
+            "splitPercentage": 44.63221401406109
+          }
+        },
+        {
+          "title": "ACC",
+          "layout": {
+            "first": {
+              "first": {
+                "first": "Plot!1rxdw6c",
+                "second": "Plot!30rz1tg",
+                "direction": "row"
+              },
+              "second": {
+                "first": "RawMessages!2tqw4ox",
+                "second": {
+                  "first": "Plot!170cr23",
+                  "second": "StateTransitions!38dqj0c",
+                  "direction": "column"
+                },
+                "direction": "row",
+                "splitPercentage": 49.96491228070175
+              },
+              "direction": "column"
+            },
+            "second": {
+              "first": {
+                "first": "Plot!3i91i0q",
+                "second": {
+                  "first": "Plot!1ojvzst",
+                  "second": "Plot!2k9v5iu",
+                  "direction": "column"
+                },
+                "direction": "row"
+              },
+              "second": {
+                "first": "Plot!3jwqlz1",
+                "second": "Plot!3ioxg1r",
+                "direction": "column"
+              },
+              "direction": "column"
+            },
+            "direction": "row"
+          }
+        },
+        {
+          "title": "Shutdown",
+          "layout": {
+            "first": {
+              "first": "StateTransitions!1eziljd",
+              "second": "StateTransitions!1vd8183",
+              "direction": "column",
+              "splitPercentage": 78.36586414096773
+            },
+            "second": "Plot!3528qpq",
+            "direction": "row"
+          }
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Tab!2p9xiqs"
+}
